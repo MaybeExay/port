@@ -61,7 +61,7 @@ export const PROJECTS: Project[] = [
     technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind'],
     liveUrl: 'https://demo-shop.example.com',
     codeUrl: 'https://github.com/username/ecommerce',
-    image: '/projects/ecommerce.jpg',
+    image: 'projects/ecommerce.jpg',
     featured: true,
   },
   {
@@ -74,7 +74,7 @@ export const PROJECTS: Project[] = [
     technologies: ['React', 'TypeScript', 'Dnd-kit', 'Firebase'],
     liveUrl: 'https://tasks.example.com',
     codeUrl: 'https://github.com/username/task-manager',
-    image: '/projects/task-manager.jpg',
+    image: 'projects/task-manager.jpg',
     featured: true,
   },
   {
@@ -87,7 +87,7 @@ export const PROJECTS: Project[] = [
     technologies: ['Next.js', 'OpenWeatherMap API', 'Mapbox', 'Chart.js'],
     liveUrl: 'https://weather.example.com',
     codeUrl: 'https://github.com/username/weather-app',
-    image: '/projects/weather.jpg',
+    image: 'projects/weather.jpg',
     featured: false,
   },
   {
@@ -99,7 +99,7 @@ export const PROJECTS: Project[] = [
     technologies: ['Next.js', 'MDX', 'Prisma', 'PostgreSQL'],
     liveUrl: 'https://blog.example.com',
     codeUrl: 'https://github.com/username/blog-platform',
-    image: '/projects/blog.png',
+    image: 'projects/blog.png',
     featured: false,
   },
 ];
