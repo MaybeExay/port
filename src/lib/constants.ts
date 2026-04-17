@@ -53,14 +53,11 @@ export const SKILLS: Skill[] = [
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: 'E-commerce Platform',
-    description: 'Полнофункциональный интернет-магазин с корзиной, оплатой и админ-панелью',
-    fullDescription: `Масштабный проект интернет-магазина с использованием Next.js 14,
-    Stripe для платежей и PostgreSQL для хранения данных. Включает каталог товаров,
-    корзину, оформление заказов, личный кабинет и админ-панель для управления.`,
-    technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind'],
-    liveUrl: 'https://demo-shop.example.com',
-    codeUrl: 'https://github.com/username/ecommerce',
+    title: 'Portfolio',
+    description: 'Полнофункциональное пробное портфолио',
+    fullDescription: `Жестокость ради жестокости, для тестового портыолио`,
+    technologies: ['TypeScript'],
+    codeUrl: 'https://github.com/MaybeExay/port',
     image: 'projects/ecommerce.jpg',
     featured: true,
   },
@@ -112,8 +109,8 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const SITE_CONFIG = {
-  url: 'https://username.github.io/portfolio',
-  author: 'Иван Иванов',
+  url: 'https://username.github.io/port',
+  author: 'Эксийка',
   themeColor: '#3B82F6',
   ogImage: '/og-image.png',
 };
