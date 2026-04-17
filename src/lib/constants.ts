@@ -4,7 +4,7 @@ export const PROFILE: Profile = {
   name: 'MAUBE EXAU',
   role: 'вайб кодер',
   location: 'Сочи, Россия',
-  email: 'eydonfry@example.com',
+  email: 'hello@example.com',
   bio: {
     short: 'Создаю современные веб-приложения на React и Next.js',
     full: `Я frontend-разработчик с более чем 3-летним опытом создания сложных веб-приложений. 
@@ -19,17 +19,17 @@ export const PROFILE: Profile = {
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: 'GitHub',
-    url: 'https://github.com/MaybeExay',
+    url: 'https://github.com/Delia264',
     icon: 'github',
   },
   {
     name: 'Telegram',
-    url: 'https://t.me/maybeexay',
+    url: 'https://t.me/username',
     icon: 'telegram',
   },
   {
     name: 'VK',
-    url: 'https://vk.com/maybeexay',
+    url: 'https://vk.com/callsilence',
     icon: 'vk',
   },
   {
@@ -53,10 +53,13 @@ export const SKILLS: Skill[] = [
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: 'Potfolio',
-    description: 'Портфолио потомучто потому-то, зачем-то, зачему-то, через что-то, когда-то, где-то выполненное и как-то, зачем-то используется кем-то`,
+    title: 'E-commerce Platform',
+    description: 'Полнофункциональный интернет-магазин с корзиной, оплатой и админ-панелью',
+    fullDescription: `Масштабный проект интернет-магазина с использованием Next.js 14,
+    Stripe для платежей и PostgreSQL для хранения данных. Включает каталог товаров,
+    корзину, оформление заказов, личный кабинет и админ-панель для управления.`,
     technologies: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind'],
-    liveUrl: 'https://tasks.example.com',
+    liveUrl: 'https://demo-shop.example.com',
     codeUrl: 'https://github.com/username/ecommerce',
     image: 'projects/ecommerce.jpg',
     featured: true,
@@ -74,6 +77,31 @@ export const PROJECTS: Project[] = [
     image: 'projects/task-manager.jpg',
     featured: true,
   },
+  {
+    id: 3,
+    title: 'Weather Dashboard',
+    description: 'Дашборд погоды с интерактивными картами и прогнозами',
+    fullDescription: `Приложение показывает текущую погоду и прогноз на 7 дней для любого
+    города мира. Использует OpenWeatherMap API, интерактивные карты Mapbox и красивые
+    визуализации данных.`,
+    technologies: ['Next.js', 'OpenWeatherMap API', 'Mapbox', 'Chart.js'],
+    liveUrl: 'https://weather.example.com',
+    codeUrl: 'https://github.com/username/weather-app',
+    image: 'projects/weather.jpg',
+    featured: false,
+  },
+  {
+    id: 4,
+    title: 'Blog Platform',
+    description: 'Платформа для ведения блога с Markdown-редактором',
+    fullDescription: `Платформа для публикации статей с поддержкой Markdown, тегами,
+    поиском и комментариями. Включает WYSIWYG редактор, загрузку изображений и SEO-оптимизацию.`,
+    technologies: ['Next.js', 'MDX', 'Prisma', 'PostgreSQL'],
+    liveUrl: 'https://blog.example.com',
+    codeUrl: 'https://github.com/username/blog-platform',
+    image: 'projects/blog.png',
+    featured: false,
+  },
 ];
 
 export const NAV_ITEMS: NavItem[] = [
@@ -84,8 +112,8 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const SITE_CONFIG = {
-  url: 'https://username.github.io/port',
-  author: 'Эксийка',
+  url: 'https://username.github.io/portfolio',
+  author: 'Иван Иванов',
   themeColor: '#3B82F6',
   ogImage: '/og-image.png',
 };
