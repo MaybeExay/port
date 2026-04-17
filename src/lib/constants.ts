@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
     id: 1,
     title: 'Potfolio',
     description: 'Портфолио потомучто потому-то, зачем-то, зачему-то, через что-то, когда-то, где-то выполненное и как-то, зачем-то используется кем-то`,
-    technologies: ['TypeScript'],
+    technologies: ['TypeScript',],
     codeUrl: 'https://github.com/username/ecommerce',
     image: 'projects/ecommerce.jpg',
     featured: true,
