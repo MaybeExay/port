@@ -4,7 +4,7 @@ export const PROFILE: Profile = {
   name: 'MAUBE EXAU',
   role: 'вайб кодер',
   location: 'Сочи, Россия',
-  email: 'hello@example.com',
+  email: 'eydonfry@example.com',
   bio: {
     short: 'Создаю современные веб-приложения на React и Next.js',
     full: `Я frontend-разработчик с более чем 3-летним опытом создания сложных веб-приложений. 
@@ -19,17 +19,17 @@ export const PROFILE: Profile = {
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: 'GitHub',
-    url: 'https://github.com/Delia264',
+    url: 'https://github.com/MaybeExay',
     icon: 'github',
   },
   {
     name: 'Telegram',
-    url: 'https://t.me/username',
+    url: 'https://t.me/maybeexay',
     icon: 'telegram',
   },
   {
     name: 'VK',
-    url: 'https://vk.com/callsilence',
+    url: 'https://vk.com/maybeexay',
     icon: 'vk',
   },
   {
