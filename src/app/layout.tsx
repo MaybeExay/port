@@ -11,11 +11,11 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Иван Иванов | Frontend Разработчик',
-    template: '%s | Иван Иванов',
+    default: 'Эксейка | СОЗДАТЕЛЬ КРИНЖА ВСЕЛЕНСКОГО МАСШТАБА',
+    template: '%s | Эксий',
   },
   description:
-    'Портфолио frontend-разработчика. Next.js, TypeScript, React. Создание современных веб-приложений.',
+    'Портфолио вайбкодеда. Next.js, TypeScript, React. Создание современных веб-приложений.',
   keywords: [
     'frontend',
     'разработчик',
@@ -25,28 +25,28 @@ export const metadata: Metadata = {
     'портфолио',
     'веб-разработка',
   ],
-  authors: [{ name: 'Иван Иванов' }],
-  creator: 'Иван Иванов',
+  authors: [{ name: 'Эксий' }],
+  creator: 'QwenAi',
   openGraph: {
     type: 'website',
     locale: 'ru_RU',
     url: 'https://username.github.io/portfolio/',
-    siteName: 'Портфолио | Иван Иванов',
-    title: 'Иван Иванов | Frontend Разработчик',
+    siteName: 'Портфолио | Эксий',
+    title: 'Эксейка | СОЗДАТЕЛЬ КРИНЖА ВСЕЛЕНСКОГО МАСШТАБА',
     description:
-      'Портфолио frontend-разработчика. Next.js, TypeScript, React.',
+      'Портфолио вайбкодера. Next.js, TypeScript, React.',
     images: [
       {
         url: '/og-image.svg',
         width: 1200,
         height: 630,
-        alt: 'Иван Иванов - Frontend Разработчик',
+        alt: 'Эксий - вайбкодер',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Иван Иванов | Frontend Разработчик',
+    title: 'Эксийки твитер | Frontend Разработчик',
     description:
       'Портфолио frontend-разработчика. Next.js, TypeScript, React.',
     images: ['/og-image.svg'],
